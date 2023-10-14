@@ -38,4 +38,4 @@ app.delete("/review/:id", reviewsController.deleteReview);
 
 //start server
 
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || PORT);
